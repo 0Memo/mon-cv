@@ -115,6 +115,13 @@ section {
 #about .container .row .col-12 .hobbies .modal .modal-content .modal-body {
     background: var(--color);
     color: #fff;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    #about .container .row .col-12 .hobbies .modal .modal-content .modal-body {
+        max-width: 480px;
+    }
 }
 
 #about .container .row .col-12 .hobbies .modal .modal-content .modal-body img.plane {
