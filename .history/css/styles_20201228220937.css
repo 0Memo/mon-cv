@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+:root {
+    --color: #e2bd45;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+
+.profile-picture {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 45px 0 80px 0;
+}
+
+#about {
+    padding-top: 100px;
+    background: var(--color);
+}
+
+#about  .heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#about .heading h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#about .heading h3 {
+    color: #000;
+}
+
+#about .heading .button1 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+
+#about .heading .button1:hover {
+    text-decoration: none;
+    background: #fff;
+    color: var(--color);
+}
+
+#skills {
+    background: #fff;
+}
+
+#skills .yellow-divider {
+    width: 100px;
+    height: 3px;
+    background: var(--color);
+    margin: 0 auto;
+}
+
+#skills .heading h2{
+    color: var(--color);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+#skills .progress {
+    height: 50px;
+    background: #ddd;
+}
+
+#skills .progress:last-child {
+    margin: 0 20px;
+}
+
+#skills .progress:not(:last-child) {
+    margin: 15px 20px;
+
+}
+
+#skills .progress .progress-bar {
+    background: var(--color);
+}
+
+
+#skills .progress .progress-bar h5 {
+    text-shadow: 1px 1px 1px #000;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+#experience {
+    background: var(--color);
+}
+
+#experience .white-divider {
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#experience .heading h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+#experience .container .timeline {
+    list-style: none;
+    padding: 30px 10px;
+    position: relative;
+}
+
+#experience .container .timeline::before {
+    content: " ";
+    top: 50px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2,5px;
+    width: 5px;
+    background: #333;
+    position: absolute;
+}
+
+.glyphicon-briefcase {
+    color: var(--color);
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+
+
