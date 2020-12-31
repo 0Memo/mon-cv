@@ -269,6 +269,12 @@ section {
     position: absolute;
 }
 
+@media screen and (max-width: 768px) {
+    #experience .container .timeline::before {
+        background: none;
+    } 
+}
+
 #experience .container .timeline > li {
     margin-bottom: 20px;
     position: relative;
@@ -307,6 +313,13 @@ section {
     float: right;
 }
 
+@media screen and (max-width: 768px) {
+    #experience .container .timeline li .timeline-panel-container, #experience .container .timeline li .timeline-panel-container-inverted {
+        width: 100%;
+        float: none;
+    } 
+}
+
 #experience .container .timeline li .timeline-panel-container .timeline-panel {
     width: 80%;
     float: right;
@@ -333,6 +346,15 @@ section {
     word-wrap: break-word;
 }
 
+@media screen and (max-width: 768px) {
+    #experience .container .timeline li .timeline-panel-container .timeline-panel, #experience .container .timeline li .timeline-panel-container-inverted .timeline-panel {
+        width: 100%;
+        float: none;
+        margin: 0 0 25px 0;
+        padding: 20px 25px;
+    } 
+}
+
 #experience .container .timeline li .timeline-panel-container .timeline-panel::after {
     position: absolute;
     top: 27px;
@@ -355,6 +377,12 @@ section {
     border-right: 25px solid #fff;
     border-bottom: 8px solid transparent;
     content: " ";
+}
+
+@media screen and (max-width: 768px) {
+    #experience .container .timeline li .timeline-panel-container .timeline-panel::after, #experience .container .timeline li .timeline-panel-container-inverted .timeline-panel::after {
+        border:none
+    } 
 }
 
 #experience .container .timeline li .timeline-panel-container .timeline-panel .timeline-heading h3, #experience .container .timeline li .timeline-panel-container-inverted .timeline-panel .timeline-heading h3 {
