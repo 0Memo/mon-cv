@@ -24,7 +24,7 @@ $(function(){
         var postdata = $('#contact-form').serialize();
 
         $.ajax({            
-            url: 'php/contact.php',
+            url: 'https://formspree.io/f/mjvpneqd',
             method:'POST',
             data: postdata,
             dataType: 'json',
