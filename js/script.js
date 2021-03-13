@@ -23,9 +23,9 @@ $(function(){
         $('.comments').empty();
         var postdata = $('#contact-form').serialize();
 
-        $.ajax({
-            type:'POST',
+        $.ajax({            
             url: 'php/contact.php',
+            method:'POST',
             data: postdata,
             dataType: 'json',
             success: function(result) {
