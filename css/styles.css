@@ -156,7 +156,7 @@ section {
     font-size: 28px;
 }
 
-#about .heading .button1, #contact .container .mail h3, #contact .container .number h3, #contact .container .button1 {
+#about .heading .button2, #contact .container .mail h3, #contact .container .number h3, #contact .container .button2 {
     height: 60px;
     color: #fff;
     font-weight: bold;
@@ -170,7 +170,7 @@ section {
     transition: all 0.3s ease-in 0s;
 }
 
-#about .heading .button1:hover, #contact .container .mail h3:hover, #contact .container .number h3:hover, #contact .container .button1:hover {
+#about .heading .button2:hover, #contact .container .mail h3:hover, #contact .container .number h3:hover, #contact .container .button2:hover {
     text-decoration: none;
     background: #fff;
     color: var(--color);
@@ -534,6 +534,75 @@ section {
 }
 
 /* CONTACT */
+
+.divider {
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#contact-form {
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.white {
+    color: #fff;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px;
+}
+
+#contact-form label {
+    color: #fff;
+    font-weight: bold;
+}
+
+#contact-form input[type=submit] {
+    margin: 40px auto 0;
+    display: block;
+}
+
+.button1 {
+    height: 70px;
+    border: 1px solid #fff;
+    background: #367234;
+    color: #fff;
+    width: 25%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;    
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: #fff;
+    border-color: #367234;
+    color: #367234;
+    font-size:larger;
+}
+
+.thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
 
 #contact .contact .row .col-sm-6 h3 {
     text-align: center;
