@@ -121,7 +121,10 @@ section {
 @media screen and (max-width: 768px) {
     #about .container .row .col-12 .hobbies .modal .modal-content .modal-body {
         max-width: 480px;
-        z-index: 1001;
+    }
+    
+    .navbar {
+        z-index: 2000;
     }
     
     .list li a img {
