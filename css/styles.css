@@ -100,7 +100,7 @@ section {
 
 @media screen and (max-width: 768px) {
     .list li a img {
-        z-index: 0;
+        z-index: -1;
     }
 }
 
