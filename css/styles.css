@@ -78,7 +78,7 @@ section {
     list-style: none;
     font-size: 18px;
     font-weight: bold;
-    z-index: 1000;
+    z-index: 10;
     margin-top: 10%;
     margin-left: 0;
 }
@@ -95,7 +95,7 @@ section {
     position: sticky;
     width: 2.4em;
     height: 2.4em;
-    z-index: 1000;
+    z-index: 10;
 }
 
 /* ABOUT */
@@ -127,8 +127,8 @@ section {
         z-index: 2000;
     }
     
-    .list li a {
-        z-index: 1;
+    .list li a img {
+        z-index: 10;
     }
 }
 
