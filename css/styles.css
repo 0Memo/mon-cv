@@ -78,7 +78,7 @@ section {
     list-style: none;
     font-size: 18px;
     font-weight: bold;
-    z-index: 10;
+    z-index: 1000;
     margin-top: 10%;
     margin-left: 0;
 }
@@ -95,6 +95,7 @@ section {
     position: sticky;
     width: 2.4em;
     height: 2.4em;
+    z-index: 1000;
 }
 
 /* ABOUT */
@@ -120,14 +121,6 @@ section {
 @media screen and (max-width: 768px) {
     #about .container .row .col-12 .hobbies .modal .modal-content .modal-body {
         max-width: 480px;
-    }
-    
-    #about .heading h1 {
-        z-index: 2000;
-    }
-    
-    .list li {
-        z-index: 10;
     }
 }
 
