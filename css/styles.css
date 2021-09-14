@@ -95,7 +95,7 @@ section {
     position: sticky;
     width: 2.4em;
     height: 2.4em;
-    z-index: 1000;
+    z-index: -1;
 }
 
 @media screen and (max-width: 768px) {
