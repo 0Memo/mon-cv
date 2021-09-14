@@ -123,7 +123,7 @@ section {
         max-width: 480px;
     }
     
-    #about {
+    #about .heading h1 {
         z-index: 2000;
     }
     
