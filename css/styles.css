@@ -78,7 +78,7 @@ section {
     list-style: none;
     font-size: 18px;
     font-weight: bold;
-    z-index: 1000;
+    z-index: -1;
     margin-top: 10%;
     margin-left: 0;
 }
