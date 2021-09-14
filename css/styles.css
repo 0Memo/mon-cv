@@ -127,7 +127,7 @@ section {
         z-index: 2000;
     }
     
-    .list li a img {
+    .list li a {
         z-index: 1;
     }
 }
