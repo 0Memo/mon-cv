@@ -123,12 +123,12 @@ section {
         max-width: 480px;
     }
     
-    .navbar {
+    #about {
         z-index: 2000;
     }
     
     .list li a img {
-        z-index: 1000;
+        z-index: 1;
     }
 }
 
