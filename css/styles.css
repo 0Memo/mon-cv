@@ -98,12 +98,6 @@ section {
     z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
-    .list li a img {
-        z-index: 1;
-    }
-}
-
 /* ABOUT */
 
 #about {
@@ -128,6 +122,10 @@ section {
     #about .container .row .col-12 .hobbies .modal .modal-content .modal-body {
         max-width: 480px;
         z-index: 2;
+    }
+    
+    .list li a img {
+        z-index: 1;
     }
 }
 
