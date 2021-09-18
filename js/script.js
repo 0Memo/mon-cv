@@ -17,6 +17,8 @@ $(function(){
         loop: true
     });
     
+    var submitted=false;
+    
     $('#contact-form').submit(function(e) {                
         $('#contact-form *').fadeOut(2000);
         $("#contact-form").prepend("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté &#128389; </p>");                
