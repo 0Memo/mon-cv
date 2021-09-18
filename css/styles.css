@@ -156,7 +156,7 @@ section {
     font-size: 28px;
 }
 
-#about .heading .button1, #contact .container .mail h3, #contact .container .number h3, #contact .container .button1 {
+#about .heading .button1, #contact .container .mail h3, #contact .container .number h3, #contact .container .button2 {
     height: 60px;
     color: #fff;
     font-weight: bold;
@@ -170,7 +170,7 @@ section {
     transition: all 0.3s ease-in 0s;
 }
 
-#about .heading .button1:hover, #contact .container .mail h3:hover, #contact .container .number h3:hover, #contact .container .button1:hover {
+#about .heading .button1:hover, #contact .container .mail h3:hover, #contact .container .number h3:hover, #contact .container .button2:hover {
     text-decoration: none;
     background: #fff;
     color: var(--color);
