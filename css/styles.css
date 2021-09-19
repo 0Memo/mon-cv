@@ -596,6 +596,10 @@ section {
     font-size:larger;
 }
 
+#tips1, #tips2, #tips3, #tips4, #tips5 {
+    display: none;
+}
+
 .thank-you {
     text-align: center;
     margin-top: 15px;
