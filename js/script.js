@@ -17,8 +17,6 @@ $(function(){
         loop: true
     });
     
-    var submitted=false;
-    
     var tips1 = document.getElementById('tips1');
     var tips2 = document.getElementById('tips2');
     var tips3 = document.getElementById('tips3');
@@ -141,9 +139,4 @@ $(function(){
             button.disabled = true;
         }
     };
-    
-    $('#contact-form').on('submit', function(e) {
-        $('#contact-form *').fadeOut(2000);
-        $('#contact-form').prepend('Votre message a bien été envoyé &#128389;');
-    });
 })
