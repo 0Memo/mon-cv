@@ -86,7 +86,7 @@ $(function(){
         var val = "";
         val = this.value;
 
-        if(/^\(*\+*[1-9]{0,3}\)*-*[1-9]{0,3}[-. /]*\(*[2-9]\d{2}\)*[-. /]*\d{3}[-. /]*\d{4} *e*x*t*\.* *\d{0,4}$/.test(this.value)){
+        if(/^(\+|00)[0-9]{1,3}[0-9]{4,14}(?:x.+)?$/.test(this.value)){
             var tips4 = document.getElementById('tips4');
             this.style.border="2px solid green";
             this.style.color="black";
