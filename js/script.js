@@ -86,7 +86,7 @@ $(function(){
         var val = "";
         val = this.value;
 
-        if(/^0[1-68]([-. ]?[0-9]{2}){4})+$/.test(this.value)){
+        if(^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$/.test(this.value)){
             var tips4 = document.getElementById('tips4');
             this.style.border="2px solid green";
             this.style.color="black";
