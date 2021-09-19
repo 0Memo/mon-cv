@@ -144,7 +144,7 @@ $(function(){
     
     var form = document.getElementById('contact-form');
     form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('<p class='thank-you'>Votre message a bien été envoyé &#128389;. Merci de m\'avoir contacté! &#128516;</p>');
+        $('#contact-form *').fadeOut(2000);
+        $('#contact-form').prepend('Votre message a bien été envoyé &#128389;. Merci de m\'avoir contacté! &#128516;');
         });
 })
