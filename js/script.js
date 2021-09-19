@@ -19,11 +19,6 @@ $(function(){
     
     var submitted=false;
     
-    $('#contact-form').submit(function(e) {                
-        $('#contact-form *').fadeOut(2000);
-        $("#contact-form").prepend("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté &#128389; </p>");                
-    });
-    
     var tips1 = document.getElementById('tips1');
     var tips2 = document.getElementById('tips2');
     var tips3 = document.getElementById('tips3');
@@ -47,7 +42,7 @@ $(function(){
             this.style.color="black";
             tips1.style.display="none";
         }
-        });
+    });
 
     document.getElementById('company').addEventListener("keyup", function() {
         var val = "";
@@ -136,26 +131,25 @@ $(function(){
     var message = document.getElementById('message');
     var valMessage = message.value;
     var button = document.getElementById('button1');
-    var form = document.getElementById('contact-form');
 
 
     function EnableDisable() {
         //Reference the Button.
-        var buttonSubmit = document.getElementById("button1");
+        var button = document.getElementById('button1');
 
         //Verify the TextBox value.
         if ((name.value.trim() != "") && (company.value.trim() != "") && (email.value.trim() !="") && (phone.value.trim() !="") &&& (message.value.trim() != ""))  {
             //Enable the TextBox when TextBox has value.
-            buttonSubmit.disabled = false;
+            button.disabled = false;
         } else {
             //Disable the TextBox when TextBox is empty.
-            buttonSubmit.disabled = true;
+            button.disabled = true;
         }
     };
-
-    var form = document.getElementById('contact-form');
-    form.addEventListener('submit', function(event) {
+    
+    $('#contact-form').submit(function(e) {
         event.preventDefault();
-        alert('Votre demande a bien été prise en compte.');
+        $('#contact-form *').fadeOut(2000);
+        $("#contact-form").prepend("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté &#128389; </p>");                
     });
 })
