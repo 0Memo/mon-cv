@@ -576,6 +576,10 @@ section {
     display: block;
 }
 
+#tips1, #tips2, #tips3, #tips4, #tips5 {
+    display: none;
+}
+
 .button1 {
     height: 70px;
     border: 1px solid #fff;
