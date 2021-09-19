@@ -507,7 +507,7 @@
                             <h3>Spelet Snake - HTML JAVASCRIPT</h3>
                         </div>
                         <div class="item">
-                            <a href="https://www.jessica-viel.ovh/hotelcop/" title="proyecto HôtelCop" class="hotelCop" target="_blank">http://www.jessica-viel.ovh/hotelcop/</a>
+                            <a href="https://0memo.github.io/hotel/" title="proyecto HôtelCop" class="hotelCop" target="_blank">https://0memo.github.io/hotel/</a>
                             <h3>Projekt i samarbete - HTML CSS JAVASCRIPT</h3>
                         </div>
                     </div>
@@ -526,6 +526,46 @@
                 <div class="white-divider"></div>
                 <div class="heading">
                     <h2>Kontakt</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <form name="contact-form" id="contact-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSegE-9bLSfmzhfWWGFmJBEk5mvcs5x974Qn752qqcHobrVVUQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="entry.843893160">Nom<span class="white"> *</span></label>
+                                    <input type="text" id="entry.843893160" name="entry.843893160" class="form-control" placeholder="Votre nom">
+                                    <span id="tips26">Vem är du &#127925 ?</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="entry.987393334">Société<span class="white"> *</span></label>
+                                    <input type="text" id="entry.987393334" name="entry.987393334" class="form-control" placeholder="Votre société">
+                                    <span id="tips27">Vem jöbbar du för &#128075 ?</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="entry.287231417">E-mail<span class="white"> *</span></label>
+                                    <input type="email" id="entry.287231417" name="entry.287231417" class="form-control" placeholder="Votre e-mail">
+                                    <span id="tips28">Var inte blyg och ge mig ditt mejl &#128231 !</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="entry.1960148977">Téléphone<span class="white"> *</span></label>
+                                    <input type="tel" id="entry.1960148977" name="entry.1960148977" class="form-control" placeholder="Votre téléphone">
+                                    <span id="tips29">Jag behöver det exakta numret för att ringa dig &#128241 !</span>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="entry.50622567">Message<span class="white"> *</span></label>
+                                    <textarea name="entry.50622567" id="entry.50622567" class="form-control" placeholder="Votre message" rows="4"></textarea>
+                                    <span id="tips30">Det är definitivt bättre med ett meddelande &#128172 !</span>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="white"><strong>* Denna information är viktig</strong></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="button1" id="button1" value="Skicka">
+                                </div>                                
+                            </div>                            
+                        </form>
+                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                    </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-12 col-md-4">
@@ -574,6 +614,13 @@
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">var submitted=false;</script>
+        <script type="text/javascript">
+            $('#contact-form').on('submit', function(e) {
+                $('#contact-form *').fadeOut(2000);
+                $('#contact-form').prepend('<p class="thank-you">Ditt meddelande har skickats &#128389;</p>');
+            });
+        </script>
         <script src="js/script.js"></script>
     </body>
 </html>
