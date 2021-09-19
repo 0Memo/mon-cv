@@ -19,12 +19,6 @@ $(function(){
     
     var submitted=false;
     
-    var tips1 = document.getElementById('tips1');
-    var tips2 = document.getElementById('tips2');
-    var tips3 = document.getElementById('tips3');
-    var tips4 = document.getElementById('tips4');
-    var tips5 = document.getElementById('tips5');
-    
     document.getElementById('name').addEventListener("keyup", function() {
         var val = "";
         val = this.value;
@@ -130,8 +124,6 @@ $(function(){
     var valPhone= phone.value;
     var message = document.getElementById('message');
     var valMessage = message.value;
-    var button = document.getElementById('button1');
-
 
     function EnableDisable() {
         //Reference the Button.
@@ -139,16 +131,13 @@ $(function(){
 
         //Verify the TextBox value.
         if ((name.value.trim() != "") && (company.value.trim() != "") && (email.value.trim() !="") && (phone.value.trim() !="") &&& (message.value.trim() != ""))  {
-            //Enable the TextBox when TextBox has value.
             button.disabled = false;
         } else {
-            //Disable the TextBox when TextBox is empty.
             button.disabled = true;
         }
     };
     
     $('#contact-form').submit(function(e) {
-        event.preventDefault();
         $('#contact-form *').fadeOut(2000);
         $("#contact-form").prepend("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté &#128389; </p>");                
     });
