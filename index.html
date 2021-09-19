@@ -526,15 +526,15 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <form name="contact-form" id="contact-form" action="https://docs.google.com/forms/d/e/1FAIpQLSegE-9bLSfmzhfWWGFmJBEk5mvcs5x974Qn752qqcHobrVVUQ/formResponse?" enctype="text/plain" target="hidden_iframe" onsubmit="submitted=true;">
+                        <form name="contact-form" id="contact-form" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSegE-9bLSfmzhfWWGFmJBEk5mvcs5x974Qn752qqcHobrVVUQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="entry.843893160">Nom<span class="white"> *</span></label>
                                     <input type="text" id="entry.843893160" name="entry.843893160" class="form-control" placeholder="Votre nom">
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="entry.9873933">Société<span class="white"> *</span></label>
-                                    <input type="text" id="entry.9873933" name="entry.9873933" class="form-control" placeholder="Votre société">
+                                    <label for="entry.987393334">Société<span class="white"> *</span></label>
+                                    <input type="text" id="entry.987393334" name="entry.987393334" class="form-control" placeholder="Votre société">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="entry.287231417">E-mail<span class="white"> *</span></label>
@@ -614,8 +614,8 @@
         <script type="text/javascript">
             $('#contact-form').on('submit', function(e) {
                 $('#contact-form *').fadeOut(2000);
-                $('#contact-form').append("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté &#128389; </p>");
-            });
+                $('#contact-form').prepend("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté &#128389; </p>");
+                });
         </script>
         <script src="js/script.js"></script>
         
