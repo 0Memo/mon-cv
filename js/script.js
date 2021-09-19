@@ -86,7 +86,7 @@ $(function(){
         var val = "";
         val = this.value;
 
-        if(/^(\+|00)[0-9]{1,3}[0-9]{4,14}(?:x.+)?$/.test(this.value)){
+        if(/^0\d(\s|-)?(\d{2}(\s|-)?){4}$/.test(this.value)){
             var tips4 = document.getElementById('tips4');
             this.style.border="2px solid green";
             this.style.color="black";
