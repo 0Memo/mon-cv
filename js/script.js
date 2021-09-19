@@ -142,9 +142,8 @@ $(function(){
         }
     };
     
-    var form = document.getElementById('contact-form');
-    form.addEventListener('submit', function(event) {
+    $('#contact-form').on('submit', function(e) {
         $('#contact-form *').fadeOut(2000);
-        $('#contact-form').prepend('Votre message a bien été envoyé &#128389;. Merci de m\'avoir contacté! &#128516;');
-        });
+        $('#contact-form').prepend('Votre message a bien été envoyé &#128389;');
+    });
 })
