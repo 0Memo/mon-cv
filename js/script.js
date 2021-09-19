@@ -130,26 +130,19 @@ $(function(){
     var valPhone = phone.value;
     var message = document.getElementById('entry.50622567');
     var valMessage = message.value;
-    var button = document.getElementById('button1');
-    var form = document.getElementById('form');
-
 
     function EnableDisable() {
-        //Reference the Button.
         var button = document.getElementById("button1");
 
         //Verify the TextBox value.
         if ((name.value.trim() != "") && (company.value.trim() != "") && (email.value.trim() !="") && (phone.value.trim() !="") && (message.value.trim() !=""))  {
-            //Enable the TextBox when TextBox has value.
             button.disabled = false;
+            $('#contact-form').on('submit', function(e) {
+                $('#contact-form *').fadeOut(2000);
+                $('#contact-form').prepend("<p class='thank-you'>Votre message a bien été envoyé &#128389;. Merci de m'avoir contacté! &#128516;</p>");
+            });
         } else {
-            //Disable the TextBox when TextBox is empty.
             button.disabled = true;
         }
-    };
-    
-    $('#contact-form').on('submit', function(e) {
-        $('#contact-form *').fadeOut(2000);
-        $('#contact-form').prepend("<p class='thank-you'>Votre message a bien été envoyé &#128389;. Merci de m'avoir contacté! &#128516;</p>");
-        });
+    };    
 })
