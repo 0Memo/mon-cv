@@ -86,7 +86,7 @@ $(function(){
         var val = "";
         val = this.value;
 
-        if(/^(+\d+(\s|-))?0\d(\s|-)?(\d{2}(\s|-)?){4}$/.test(this.value)){
+        if(/^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$/.test(this.value)){
             var tips4 = document.getElementById('tips4');
             this.style.border="2px solid green";
             this.style.color="black";
