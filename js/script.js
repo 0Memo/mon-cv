@@ -137,12 +137,14 @@ $(function(){
         //Verify the TextBox value.
         if ((name.value.trim() != "") && (company.value.trim() != "") && (email.value.trim() !="") && (phone.value.trim() !="") && (message.value.trim() !=""))  {
             button.disabled = false;
-            $('#contact-form').on('submit', function(e) {
-                $('#contact-form *').fadeOut(2000);
-                $('#contact-form').prepend("<p class='thank-you'>Votre message a bien été envoyé &#128389;. Merci de m'avoir contacté! &#128516;</p>");
-            });
         } else {
             button.disabled = true;
         }
-    };    
+    };
+    
+    var form = document.getElementById('contact-form');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('<p class='thank-you'>Votre message a bien été envoyé &#128389;. Merci de m'avoir contacté! &#128516;</p>"');
+});
 })
