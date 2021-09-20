@@ -395,7 +395,7 @@ section {
     }
     
     #button1 {
-        width: 75%;
+        width: 100% !important;
     }
 }
 
