@@ -576,7 +576,7 @@ section {
     display: block;
 }
 
-.button1 {
+#button1 {
     height: 70px;
     border: 1px solid #fff;
     background: #367234;
@@ -589,7 +589,7 @@ section {
     transition: all 0.3s ease-in 0s;
 }
 
-.button1:hover {
+#button1:hover {
     background: #fff;
     border-color: #367234;
     color: #367234;
