@@ -392,7 +392,11 @@ section {
 @media screen and (max-width: 768px) {
     #experience .container .timeline li .timeline-panel-container .timeline-panel::after, #experience .container .timeline li .timeline-panel-container-inverted .timeline-panel::after {
         border:none
-    } 
+    }
+    
+    #button1 {
+    width: 50%;
+    }
 }
 
 #experience .container .timeline li .timeline-panel-container .timeline-panel .timeline-heading h3, #experience .container .timeline li .timeline-panel-container-inverted .timeline-panel .timeline-heading h3 {
