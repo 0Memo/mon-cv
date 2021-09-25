@@ -64,6 +64,35 @@ section {
     background-color: #fff !important;
 }
 
+.navbar-nav li a:before, .navbar-nav li.active a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    bottom: -2px;
+    left: 0;
+    background: var(--color);
+    visibility: hidden;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.navbar-nav li a:after, .navbar-nav li.active a:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    top: -2px;
+    right: 0;
+    background: var(--color);
+    visibility: hidden;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.navbar-nav li a:hover:before, .navbar-nav li.active a:hover:before, .navbar-nav li a:hover:after, .navbar-nav li.active a:hover:after {
+    visibility: visible;
+    width: 100%;
+}
+
 .navbar-default .navbar-toggle {
     border-style: none;
 }
