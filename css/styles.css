@@ -632,7 +632,8 @@ section {
 #contact .container .row .col-md-4 .github a:hover, #contact .container .row .col-md-4 .whire a:hover, #contact .container .row .col-md-4 .linkedIn a:hover {
     text-decoration: none;
     opacity: 1;
-    color: rgb(98, 89, 89);
+    color: #ffee10;
+    text-shadow: 0 0 5px #ffee10;    
 }
 
 /* FOOTER */
