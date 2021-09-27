@@ -646,24 +646,32 @@ section {
     display: block;
 }
 
-#button1 {
-    height: 70px;
-    border: 1px solid #fff;
+.button1 {
     background: #367234;
     color: #fff;
     width: 25%;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 18px;
-    border-radius: 5px;    
-    transition: all 0.3s ease-in 0s;
+    padding: 18px;   
+    transition: all 0.2s ease-in 0s;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
 }
 
-#button1:hover {
-    background: #fff;
-    border-color: #367234;
-    color: #367234;
-    font-size:larger;
+.button1:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-offset: 15px;
+    outline-color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 2px #427388;
 }
 
 #tips1, #tips2, #tips3, #tips4, #tips5, #tips6, #tips7, #tips8, #tips9, #tips10, #tips11, #tips12, #tips13, #tips14, #tips15, #tips16, #tips17, #tips18, #tips19, #tips20, #tips21, #tips22, #tips23, #tips24, #tips25, #tips26, #tips27, #tips28, #tips29, #tips30, #tips31, #tips32, #tips33, #tips34, #tips35 {
