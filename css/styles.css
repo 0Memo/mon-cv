@@ -81,7 +81,7 @@ section {
     position: absolute;
     width: 0;
     height: 5px;
-    top: -2px;
+    top: 0;
     right: 0;
     background: var(--color);
     visibility: hidden;
