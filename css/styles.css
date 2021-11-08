@@ -149,6 +149,10 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+    #about {
+	background-color: var(--color);
+    }
+	
     #about .container .row .col-12 .hobbies .modal .modal-content .modal-body {
         max-width: 480px;
     }
