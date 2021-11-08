@@ -1,4 +1,13 @@
 $(function(){
+    var rawImages = '[{"filename":"image1.jpg","name":"image1","author":"Guillaume Mehats"},{"filename":"image2.JPG","name":"image2","author":"Guillaume Mehats"},{"filename":"image3.JPG","name":"image3","author":"Guillaume Mehats"},{"filename":"image4.JPG","name":"image4","author":"Guillaume Mehats"},{"filename":"image5.JPG","name":"image5","author":"Guillaume Mehats"},{"filename":"image6.JPG","name":"image6","author":"Guillaume Mehats"},{"filename":"image7.jpg","name":"image7","author":"Guillaume Mehats"},{"filename":"image8.jpg","name":"image8","author":"Guillaume Mehats"},{"filename":"image9.jpg","name":"image9","author":"Guillaume Mehats"},{"filename":"image10.jpg","name":"image10","author":"Guillaume Mehats"}]';
+
+    var images = JSON.parse(rawImages);
+    // choose a random image
+    var randomImage = images[Math.floor(Math.random() * images.length)];
+
+    // apply the image as the background of pageContent
+    $('#about').css('background-image', 'url(img/' + randomImage.filename + ')');
+    
     $(".navbar a, footer a").on("click", function(event){
         event.preventDefault();
         var hash = this.hash;
