@@ -131,6 +131,7 @@ section {
 
 #about {
     padding-top: 100px;
+    background-color: var(--color);
 }
 
 #about img:not(.colombia) {
