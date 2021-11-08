@@ -131,8 +131,8 @@ section {
 
 #about {
     padding-top: 100px;
-    background: var(--color);
 }
+
 #about img:not(.colombia) {
     max-width: 100%;
     height: auto;
