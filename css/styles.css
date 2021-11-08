@@ -245,6 +245,9 @@ section {
 
 #about .container .row .col-12 .hobbies h3 {
     color: rgb(22, 21, 21);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, .175);
 
 }
 
@@ -266,6 +269,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     margin: 25px;
+    text-shadow: 5px 8px 5px rgba(0, 0, 0, .75);
 }
 
 #skills .progress {
@@ -326,6 +330,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     margin: 25px;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, .75);
 }
 
 #experience .container .timeline {
