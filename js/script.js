@@ -20,7 +20,7 @@ $(function(){
         }); 
 
     var typed = new Typed("#typed",{
-        strings: ["Français","English","Español", "Português", "Italiano", "Română", "Svenska", "Deutsch", "עִבְרִית"],
+        strings: ["Français","English","Español", "Português", "Italiano", "Română", "Svenska", "Deutsch", "עִבְרִית" , "Հայերեն"],
         typeSpeed: 100,
         backSpeed:50,
         loop: true
