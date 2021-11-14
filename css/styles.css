@@ -634,6 +634,10 @@ section {
     color: red;
 }
 
+.required {
+    font-style: italic;
+}
+
 .form-control {
     height: 50px;
     font-size: 18px;
