@@ -630,8 +630,8 @@ section {
     margin: 0 auto;
 }
 
-.white {
-    color: #fff;
+.red {
+    color: red;
 }
 
 .form-control {
