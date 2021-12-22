@@ -561,7 +561,10 @@
                                 </div>                                
                             </div>                            
                         </form>
-                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {$('#contact-form').on('submit', function(e) {
+                        $('#contact-form *').fadeOut(2000);
+                        $('#contact-form').prepend('<p class="thank-you">Votre message a bien été envoyé &#128389;</p>');
+                        });}"></iframe>
                     </div>
                 </div>
                 <div class="row text-center">
@@ -613,12 +616,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript">var submitted=false;</script>
-        <script type="text/javascript">
-            $('#contact-form').on('submit', function(e) {
-                $('#contact-form *').fadeOut(2000);
-                $('#contact-form').prepend('<p class="thank-you">Votre message a bien été envoyé &#128389;</p>');
-            });
-        </script>
         <script src="js/script.js"></script>
         
     </body>
