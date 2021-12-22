@@ -46,7 +46,7 @@ section {
     text-align: center;
 }
 
-.navbar li a, .navbar li#versions {
+.navbar-nav li a, .navbar-nav li#versions {
     color: #fff !important;
 }
 
