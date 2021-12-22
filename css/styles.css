@@ -274,7 +274,6 @@ section {
     text-align: center;
     text-transform: uppercase;
     margin: 25px;
-    text-shadow: 5px 8px 5px rgba(0, 0, 0, .75);
 }
 
 #skills .progress {
@@ -335,7 +334,6 @@ section {
     text-align: center;
     text-transform: uppercase;
     margin: 25px;
-    text-shadow: 10px 10px 5px rgba(0, 0, 0, .75);
 }
 
 #experience .container .timeline {
@@ -630,8 +628,8 @@ section {
     margin: 0 auto;
 }
 
-.red {
-    color: red;
+.white {
+    color: white;
 }
 
 .required {
