@@ -26,15 +26,6 @@ section {
     padding: 45px 0 80px 0;
 }
 
-.r {
-    display: inline-block;
-    transform: translateY(4px) rotate(180deg);
-    pointer-events: none;
-    font-style: italic;
-    text-shadow: 0 0 2.5px var(--color);
-    margin-left:3px;
-}
-
 /* MENU */
 
 .navbar {
