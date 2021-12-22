@@ -51,7 +51,7 @@ section {
     transition: .6s;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a, navbar-nav li#versions:hover {
+.navbar-nav li a:hover, .navbar-nav li.active a, navbar-nav li#versions:hover div#myVersion {
     color: var(--color) !important;
     background-color: #fff !important;
 }
