@@ -68,16 +68,13 @@ section {
     background-color: var(--color);
 }
 
-.dropdown-menu:hover {
-    background-color: #fff;
-}
-
 .dropdown-item {
     color: #fff !important;
 }
 
 .dropdown-item:hover {
     color: var(--color);
+    background-color: #fff;
 }
 
 /* ABOUT */
