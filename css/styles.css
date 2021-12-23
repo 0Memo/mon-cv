@@ -34,6 +34,7 @@ section {
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
+    position: absolute;
 }
 
 .navbar .navbar-nav {
@@ -44,6 +45,10 @@ section {
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+.navbar-nav li, .navbar-nav .dropdown li {
+    position: relative;
 }
 
 .navbar-nav li a, .navbar-nav .dropdown li a {
