@@ -259,10 +259,11 @@ section {
 }
 
 .text h5 {
-    color: transparent !important;
+    opacity: 0 !important;
 }
 
 .text span#typed {
+    opacity: 1 !important;
     color: #000;
     font-family: 'Caveat', cursive;
     font-weight: bolder;
