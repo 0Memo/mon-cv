@@ -46,7 +46,7 @@ section {
     text-align: center;
 }
 
-.navbar-nav li, .navbar-nav li a, .navbar-nav #versions ul li a {
+.navbar-nav li a, .navbar-nav #versions ul li a {
     color: #fff !important;
     transition: .6s;
 }
