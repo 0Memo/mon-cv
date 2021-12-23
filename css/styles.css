@@ -65,18 +65,19 @@ section {
 }
 
 .dropdown-menu {
-    border:none !important;
-    background-color: transparent !important;
+    background-color: var(--color);
+}
+
+.dropdown-menu:hover {
+    background-color: #fff;
 }
 
 .dropdown-item {
     color: #fff !important;
-    background-color: var(--color);
 }
 
 .dropdown-item:hover {
     color: var(--color);
-    background-color: #fff;
 }
 
 /* ABOUT */
