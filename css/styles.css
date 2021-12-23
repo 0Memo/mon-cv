@@ -70,6 +70,7 @@ section {
 
 .dropdown-item {
     color: #fff !important;
+	z-index: 2 !important;
 }
 
 .dropdown-item:hover {
