@@ -71,11 +71,12 @@ section {
 
 .dropdown-item {
     color: #fff !important;
+    pointer-events: auto;
 }
 
 .dropdown-item:hover {
     color: var(--color);
-    background-color: #fff;
+    background-color: #fff;    
 }
 
 /* ABOUT */
