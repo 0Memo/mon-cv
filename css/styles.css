@@ -67,6 +67,7 @@ section {
 .dropdown-item {
     color: #fff !important;
     background-color: var(--color);
+    border: none;
 }
 
 .dropdown-item:hover {
