@@ -64,10 +64,14 @@ section {
     background-color: #fff !important;
 }
 
+.dropdown-menu {
+    border:none !important;
+    background-color: transparent !important;
+}
+
 .dropdown-item {
     color: #fff !important;
     background-color: var(--color);
-    border: none;
 }
 
 .dropdown-item:hover {
