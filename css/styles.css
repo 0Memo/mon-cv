@@ -64,6 +64,16 @@ section {
     background-color: #fff !important;
 }
 
+.dropdown li a {
+    color: var(--color) !important;
+    background-color: #fff;
+}
+
+.dropdown li a:hover {
+    color: #fff;
+    background-color: var(--color);
+}
+
 /* ABOUT */
 
 #about {
