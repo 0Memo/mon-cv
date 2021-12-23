@@ -34,7 +34,7 @@ section {
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
-    position: absolute;
+    position: fixed;
 }
 
 .navbar .navbar-nav {
