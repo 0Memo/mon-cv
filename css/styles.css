@@ -46,12 +46,12 @@ section {
     text-align: center;
 }
 
-.navbar-nav li a, .navbar-nav li#versions {
+.navbar-nav li a, .navbar-nav .dropdown li a {
     color: #fff !important;
     transition: .6s;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a, .navbar-nav li#versions:hover {
+.navbar-nav li a:hover, .navbar-nav li.active a, .navbar-nav .dropwdown li a:hover {
     color: var(--color) !important;
     background-color: #fff !important;
 }
