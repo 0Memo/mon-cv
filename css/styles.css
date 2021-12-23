@@ -258,12 +258,11 @@ section {
     margin-left: 50%;
 }
 
-.text h5:not(span) {
-    display: none !important;
+.text h5 {
+    color: transparent !important;
 }
 
-#typed {
-    display: block;
+.text span#typed {
     color: #000;
     font-family: 'Caveat', cursive;
     font-weight: bolder;
