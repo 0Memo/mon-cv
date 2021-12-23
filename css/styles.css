@@ -64,32 +64,6 @@ section {
     background-color: #fff !important;
 }
 
-.list {
-    position: fixed;
-    display: block;
-    list-style: none;
-    font-size: 18px;
-    font-weight: bold;
-    z-index: 1000;
-    margin-top: 10%;
-    margin-left: 0;
-}
-
-.list li {
-    margin: 30% 0;
-}
-
-.list li a {
-    color: #fff;
-}
-
-.list li a img {
-    position: sticky;
-    width: 2.4em;
-    height: 2.4em;
-    z-index: 1000;
-}
-
 /* ABOUT */
 
 #about {
