@@ -1,8 +1,3 @@
-// Romanian language page access
-    document.getElementById("romanian").onclick = function () {
-        location.href = "versiune_limba_romana.html";
-    };
-
 // Romanian contact-form version
     var tips21 = document.getElementById('tips21');
     var tips22 = document.getElementById('tips22');
