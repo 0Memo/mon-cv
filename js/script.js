@@ -1,4 +1,5 @@
 $(function(){
+    // access to other languages
     document.getElementById("french").onclick = function () {
     location.href = "index.html";
     };
