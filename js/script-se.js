@@ -1,3 +1,8 @@
+// Swedish language page access
+    document.getElementById("swedish").onclick = function () {
+        location.href = "svensk_version.html";
+    };
+
 // Swedish contact-form version
     var tips26 = document.getElementById('tips26');
     var tips27 = document.getElementById('tips27');
