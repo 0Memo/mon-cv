@@ -46,9 +46,7 @@ $(function(){
 
     $('[data-spy="scroll"]').each(function () {
         var $spy = $(this).scrollspy('refresh')
-        });
-    
-    $(".text h5").hide();
+        });    
     
     var typed = new Typed("#typed",{
         strings: ["Français","English","Español", "Português", "Italiano", "Română", "Svenska", "Deutsch", "עִבְרִית" , "Հայերեն"],
