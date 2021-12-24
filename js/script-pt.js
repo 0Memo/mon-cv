@@ -1,3 +1,8 @@
+// Portuguese language page access
+    document.getElementById("portuguese").onclick = function () {
+        location.href = "versao_portuguesa.html";
+    };
+
 // Portuguese contact-form version
     var tips11 = document.getElementById('tips11');
     var tips12 = document.getElementById('tips12');
