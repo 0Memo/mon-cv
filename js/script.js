@@ -1,4 +1,8 @@
 $(function(){
+    document.getElementById("french").onclick = function () {
+    location.href = "index.html";
+    };
+    
     var rawImages = '[{"filename":"image1.jpg","name":"image1","author":"Guillaume Mehats"},{"filename":"image2.JPG","name":"image2","author":"Guillaume Mehats"},{"filename":"image3.JPG","name":"image3","author":"Guillaume Mehats"},{"filename":"image4.JPG","name":"image4","author":"Guillaume Mehats"},{"filename":"image5.JPG","name":"image5","author":"Guillaume Mehats"},{"filename":"image6.JPG","name":"image6","author":"Guillaume Mehats"},{"filename":"image7.jpg","name":"image7","author":"Guillaume Mehats"},{"filename":"image8.jpg","name":"image8","author":"Guillaume Mehats"},{"filename":"image9.jpg","name":"image9","author":"Guillaume Mehats"},{"filename":"image10.jpg","name":"image10","author":"Guillaume Mehats"}]';
 
     var images = JSON.parse(rawImages);
