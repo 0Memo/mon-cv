@@ -55,8 +55,10 @@ $(function(){
         loop: true
     });
     
-    var showTyped = JQuery("#typed").clone();
-    showTyped.appendTo(".newTyped");
+    // var showTyped = JQuery("#typed").clone();
+    // showTyped.appendTo(".newTyped");
+    $(".text h5").html($("#typed").html());
+    
     
     // French contact-form version
     
