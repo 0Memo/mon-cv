@@ -48,8 +48,6 @@ $(function(){
         var $spy = $(this).scrollspy('refresh')
         });
     
-    import Typed from 'typed.js';
-    
     var options = {
         strings: ["Français","English","Español", "Português", "Italiano", "Română", "Svenska", "Deutsch", "עִבְרִית" , "Հայերեն"],
         typeSpeed: 100,
