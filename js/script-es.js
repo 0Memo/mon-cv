@@ -1,3 +1,8 @@
+// Spanish language page access
+    document.getElementById("spanish").onclick = function () {
+        location.href = "version_espanola.html";
+    };
+
 // Spanish contact-form version
     var tips6 = document.getElementById('tips6');
     var tips7 = document.getElementById('tips7');
