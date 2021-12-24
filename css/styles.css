@@ -263,6 +263,10 @@ section {
     margin-left: 50%;
 }
 
+.text h5 {
+    visibility: hidden !important;
+}
+
 .text h5 #typed {
     color: #000;
     font-family: 'Caveat', cursive;
