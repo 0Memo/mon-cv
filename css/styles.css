@@ -263,7 +263,7 @@ section {
     margin-left: 50%;
 }
 
-span#typed {
+.text span#typed {
     color: #000;
     font-family: 'Caveat', cursive;
     font-weight: bolder;
