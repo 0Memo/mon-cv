@@ -126,8 +126,3 @@
             button.disabled = true;
         }
     };
-
-    $('#contact-form').on('submit', function(e) {
-        $('#contact-form *').fadeOut(2000);
-        $('#contact-form').prepend('<p class="thank-you">Su mensaje se envió exitosamente &#128389;</p>');
-    });
