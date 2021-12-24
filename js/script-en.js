@@ -1,3 +1,8 @@
+// English language page access
+    document.getElementById("english").onclick = function () {
+        location.href = "english_version.html";
+    };
+
 // English contact-form version
     var tips31 = document.getElementById('tips31');
     var tips32 = document.getElementById('tips32');
