@@ -48,7 +48,7 @@ $(function(){
         var $spy = $(this).scrollspy('refresh')
         });
     
-    $('.text h5').hide();
+    $(".text h5").hide();
     
     var typed = new Typed("#typed",{
         strings: ["Français","English","Español", "Português", "Italiano", "Română", "Svenska", "Deutsch", "עִבְרִית" , "Հայերեն"],
@@ -57,7 +57,8 @@ $(function(){
         loop: true
     });
     
-    $('#typed').show();
+    var showTyped = JQuery("#typed").clone();
+    showTyped.appendTo(".newTyped");
     
     // French contact-form version
     
