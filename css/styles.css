@@ -267,7 +267,7 @@ section {
     opacity: 0 !important;
 }
 
-.text h5 span#typed {
+.text h5 > span#typed {
     opacity: 1 !important;
     color: #000;
     font-family: 'Caveat', cursive;
