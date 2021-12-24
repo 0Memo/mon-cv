@@ -1,8 +1,3 @@
-// Italian language page access
-    document.getElementById("italian").onclick = function () {
-        location.href = "versione_italiana.html";
-    };
-
 // Italian contact-form version
     var tips16 = document.getElementById('tips16');
     var tips17 = document.getElementById('tips17');
