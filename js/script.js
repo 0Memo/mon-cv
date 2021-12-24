@@ -46,14 +46,18 @@ $(function(){
 
     $('[data-spy="scroll"]').each(function () {
         var $spy = $(this).scrollspy('refresh')
-        });    
+        });
     
-    var typed = new Typed("#typed",{
+    import Typed from 'typed.js';
+    
+    var options = {
         strings: ["Français","English","Español", "Português", "Italiano", "Română", "Svenska", "Deutsch", "עִבְרִית" , "Հայերեն"],
         typeSpeed: 100,
         backSpeed:50,
         loop: true
-    });     
+    };    
+    
+    var typed = new Typed("#typed", options);     
     
     // French contact-form version
     
