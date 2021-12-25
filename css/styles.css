@@ -85,7 +85,7 @@ section {
 }
 
 .flag {
-    height: 18px;
+    height: 10px !important;
     width: auto;
 }
 
