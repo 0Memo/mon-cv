@@ -48,16 +48,7 @@ $(function(){
         var $spy = $(this).scrollspy('refresh')
         });
     
-    var options = {
-        strings: ["Français","English","Español", "Português", "Italiano", "Română", "Svenska", "Deutsch", "עִבְרִית" , "Հայերեն"],
-        typeSpeed: 100,
-        backSpeed:50,
-        loop: true
-    };    
-    
-    var typed = new Typed("#typed", options);     
-    
-    // French contact-form version
+// French contact-form version
     
     var tips1 = document.getElementById('tips1');
     var tips2 = document.getElementById('tips2');
