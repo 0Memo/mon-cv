@@ -87,6 +87,7 @@ section {
 .flag {
     height: 50px;
     width: auto;
+    background: none;
 }
 
 /* ABOUT */
