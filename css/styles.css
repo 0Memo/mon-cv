@@ -209,11 +209,18 @@ section {
 	transform: scale(0.1, 1);
 }
 
+#about .container .row .col-12 .hobbies {
+	position: relative;
+}
+
 #about .container .row .col-12 .hobbies h3 {
     color: rgb(22, 21, 21);
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, .175);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #about .container .row .col-12 .hobbies a:hover {
