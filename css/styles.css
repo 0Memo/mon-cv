@@ -216,9 +216,8 @@ section {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, .175);
 }
 
-#about .container .row .col-12 .hobbies h3:hover {
+#about .container .row .col-12 .hobbies a:hover {
     text-decoration: none !important;
-    background-color: red;
 }
 
 /* SKILLS */
