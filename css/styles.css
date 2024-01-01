@@ -215,8 +215,10 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, .175);
-    text-decoration: none;
+}
 
+#about .container .row .col-12 .hobbies h3:hover {
+    text-decoration: none;
 }
 
 /* SKILLS */
