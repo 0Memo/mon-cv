@@ -221,6 +221,10 @@ section {
     text-decoration: none !important;
 }
 
+#about .container .row .col-12 .hobbies .modal .modal-dialog .modal-content .modal-header .modal-title {
+    vertical-align: middle;
+}
+
 /* SKILLS */
 
 #skills, #education, #projects {
