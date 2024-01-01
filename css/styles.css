@@ -219,6 +219,7 @@ section {
 
 #about .container .row .col-12 .hobbies h3:hover {
     text-decoration: none;
+    background-color: red;
 }
 
 /* SKILLS */
