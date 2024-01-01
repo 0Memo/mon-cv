@@ -98,7 +98,6 @@ section {
 
 #about img:not(.colombia) {
     max-width: 100%;
-    height: auto;
     border: 2px solid gold;
     background: #fff;
     border-radius: 50%;
@@ -218,7 +217,7 @@ section {
 }
 
 #about .container .row .col-12 .hobbies h3:hover {
-    text-decoration: none;
+    text-decoration: none !important;
     background-color: red;
 }
 
