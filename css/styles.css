@@ -516,7 +516,7 @@ section {
 }
 
 #portfolio .container .row .col-sm-4 img:not(:hover) {
-    filter: blur(3px) grayscale(1) !important;
+    filter: grayscale(1) !important;
 }
 
 /* PROJECTS */
