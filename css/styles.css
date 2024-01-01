@@ -210,6 +210,7 @@ section {
 }
 
 #about .container .row .col-12 .hobbies {
+	width: 100%;
 	position: relative;
 }
 
