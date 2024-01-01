@@ -214,7 +214,6 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, .175);
-    vertical-align: middle;
 }
 
 #about .container .row .col-12 .hobbies a:hover {
@@ -222,7 +221,7 @@ section {
 }
 
 #about .container .row .col-12 .hobbies .modal .modal-dialog .modal-content .modal-header .modal-title {
-    vertical-align: middle;
+    margin-top: 4%;
 }
 
 /* SKILLS */
