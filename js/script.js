@@ -46,7 +46,7 @@ $(function(){
 
     $('[data-spy="scroll"]').each(function () {
         var $spy = $(this).scrollspy('refresh')
-        });
+    });
     
 // French contact-form version
     var tips1 = document.getElementById('tips1');
