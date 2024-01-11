@@ -155,7 +155,7 @@ $(function(){
     var valName = name.value;
     var company = document.getElementById('entry.987393334');
     var valCompany = company.value;
-    var email = document.getElementById('entry.287231417l');
+    var email = document.getElementById('entry.287231417');
     var valEmail = email.value;
     var phone = document.getElementById('entry.1960148977');
     var valPhone = phone.value;
